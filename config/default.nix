@@ -3,4 +3,14 @@
   imports = [
     ./opts.nix
   ];
+
+  viAlias = true;
+  vimAlias = true;
+
+  colorschemes.gruvbox = {
+    enable = true;
+    settings = {
+      transparent_mode = true;
+    };
+  };
 }
