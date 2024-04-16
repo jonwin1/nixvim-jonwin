@@ -1,17 +1,39 @@
-# Nixvim template
+# NixVim-Jonwin
 
-This template gives you a good starting point for configuring nixvim standalone.
+My neovim config for NixOS.
 
-## Configuring
+## Testing on nix system
 
-To start configuring, just add or modify the nix files in `./config`.
-If you add a new configuration file, remember to add it to the
-[`config/default.nix`](./config/default.nix) file
-
-## Testing your new configuration
-
-To test your configuration simply run the following command
-
+```
+nix run github:jonwin1/nixvim-jonwin
+```
+or
 ```
 nix run .
 ```
+from cloned directory.
+
+## Installing on NixOS
+
+Add the configuration as an input
+
+```
+inputs.nixvim.url = "github:jonwin1/nixvim-jonwin"
+```
+
+Then add this to configuration.nix
+
+```
+environment = {
+  systemPackages = with pkgs; [
+    inputs.nixvim.packages."x86_64-linux".default
+  ];
+};
+```
+
+## Current plugins
+
+- colorscheme:
+  - ...
+- completion:
+- lsp:
