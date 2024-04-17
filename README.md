@@ -1,6 +1,7 @@
 # NixVim-Jonwin
 
-My neovim config for NixOS.
+My NeoVim config for NixOS using NixVim.
+<img src="img/1.png" alt="nvim">
 
 ## Testing on nix system
 To test the configuration on an system with nix run the following command
