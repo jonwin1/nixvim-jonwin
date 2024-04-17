@@ -38,3 +38,4 @@ environment = {
 - **[nvim-cmp](config/cmp.nix):** Completions
 - **[lsp](config/lsp.nix):** LSP configs
 - **[fidget](config/fidget.nix):** LSP progress notifications
+- **[telescope](config/telescope.nix):** Fuzzy finder

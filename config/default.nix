@@ -8,6 +8,7 @@
     ./lsp.nix
     ./opts.nix
     ./remap.nix
+    ./telescope.nix
   ];
 
   viAlias = true;
