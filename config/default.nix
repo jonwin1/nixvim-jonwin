@@ -9,6 +9,7 @@
     ./opts.nix
     ./remap.nix
     ./telescope.nix
+    ./todo-comments.nix
     ./treesitter.nix
     ./undotree.nix
     ./vimtex.nix

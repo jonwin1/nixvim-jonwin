@@ -39,6 +39,7 @@ environment = {
 - **[harpoon](config/harpoon.nix):** Quickly switch between buffers
 - **[lsp](config/lsp.nix):** LSP config
 - **[telescope](config/telescope.nix):** Fuzzy finder
+- **[todo-comments](config/todo-comments.nix):** Highlight, list and search todo comments in your projects
 - **[treesitter](config/treesitter.nix):** Incremental parsing system for programming tools
     - treesitter: Parser generator tool to build a syntax tree of the current buffer
     - treesitter-context: Show code context
