@@ -33,9 +33,10 @@ environment = {
 
 ## Current plugins
 
+- **[cmp](config/cmp.nix):** Completions
 - **[colorscheme](config/color.nix):** gruvbox
-- **[harpoon](config/harpoon.nix):** Quickly switch between buffers
-- **[nvim-cmp](config/cmp.nix):** Completions
-- **[lsp](config/lsp.nix):** LSP configs
 - **[fidget](config/fidget.nix):** LSP progress notifications
+- **[harpoon](config/harpoon.nix):** Quickly switch between buffers
+- **[lsp](config/lsp.nix):** LSP configs
 - **[telescope](config/telescope.nix):** Fuzzy finder
+- **[whichkey](config/whichkey.nix):** Keybindings popup

@@ -121,9 +121,9 @@
     }
     {
       mode = "n";
-      key = "<leader>rp";
+      key = "<leader>cp";
       action = ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>";
-      options.desc = "[r]e[p]lace";
+      options.desc = "re[p]lace";
     }
     {
       mode = "v";

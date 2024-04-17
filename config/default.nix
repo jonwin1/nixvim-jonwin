@@ -9,9 +9,9 @@
     ./opts.nix
     ./remap.nix
     ./telescope.nix
+    ./whichkey.nix
   ];
 
   viAlias = true;
   vimAlias = true;
-
 }

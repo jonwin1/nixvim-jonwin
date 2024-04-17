@@ -31,17 +31,17 @@
         action = "oldfiles, {}";
         options.desc = "[S]earch Recent Files (\".\" for repeat)";
       };
-      "<leader>si" = {
+      "<leader>gf" = {
         action = "git_files, {}";
-        options.desc = "[S]earch g[I]t files";
+        options.desc = "Search [g]it [f]iles";
       };
       "<leader>gc" = {
         action = "git_commits, {}";
-        options.desc = "Commits";
+        options.desc = "Search [g]it [c]ommits";
       };
       "<leader>gs" = {
         action = "git_status, {}";
-        options.desc = "Status";
+        options.desc = "Search [g]it [s]tatus";
       };
       "<leader>/" = {
         action = "current_buffer_fuzzy_find, {}";
