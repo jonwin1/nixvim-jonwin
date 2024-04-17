@@ -9,6 +9,7 @@
     ./opts.nix
     ./remap.nix
     ./telescope.nix
+    ./vimtex.nix
     ./whichkey.nix
   ];
 

@@ -37,6 +37,7 @@ environment = {
 - **[colorscheme](config/color.nix):** gruvbox
 - **[fidget](config/fidget.nix):** LSP progress notifications
 - **[harpoon](config/harpoon.nix):** Quickly switch between buffers
-- **[lsp](config/lsp.nix):** LSP configs
+- **[lsp](config/lsp.nix):** LSP config
 - **[telescope](config/telescope.nix):** Fuzzy finder
+- **[vimtex](config/vimtex.nix):** A filetype plugin for LaTeX files.
 - **[whichkey](config/whichkey.nix):** Keybindings popup
