@@ -6,6 +6,7 @@
     ./fidget.nix
     ./harpoon.nix
     ./lsp.nix
+    ./markdown-preview.nix
     ./opts.nix
     ./remap.nix
     ./telescope.nix
