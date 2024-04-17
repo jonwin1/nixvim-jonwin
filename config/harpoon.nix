@@ -2,15 +2,14 @@
   plugins.harpoon = {
     enable = true;
     enableTelescope = true;
-    keymapsSilent = true;
     keymaps = {
-      addFile = "<leader>a";
-      toggleQuickMenu = "<leader>h";
+      addFile = "<leader>ha";
+      toggleQuickMenu = "<leader>hh";
       navFile = {
-        "1" = "<leader>j";
-        "2" = "<leader>k";
-        "3" = "<leader>l";
-        "4" = "<leader>ö";
+        "1" = "<leader>hj";
+        "2" = "<leader>hk";
+        "3" = "<leader>hl";
+        "4" = "<leader>hö";
       };
     };
   };
