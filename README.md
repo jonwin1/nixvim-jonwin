@@ -35,5 +35,4 @@ environment = {
 
 - **[colorscheme](config/color.nix):** gruvbox
 - **[harpoon](config/harpoon.nix):** Quickly switch between buffers
-- completion:
-- lsp:
+- **[nvim-cmp](config/cmp.nix):** Completions
