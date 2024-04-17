@@ -34,10 +34,11 @@ environment = {
 ## Current plugins
 
 - **[cmp](config/cmp.nix):** Completions
-- **[colorscheme](config/color.nix):** gruvbox
+- **[colorscheme](config/color.nix):** Gruvbox
 - **[fidget](config/fidget.nix):** LSP progress notifications
 - **[harpoon](config/harpoon.nix):** Quickly switch between buffers
 - **[lsp](config/lsp.nix):** LSP config
 - **[telescope](config/telescope.nix):** Fuzzy finder
-- **[vimtex](config/vimtex.nix):** A filetype plugin for LaTeX files.
+- **[undotree](config/undotree.nix):** Undo history visualizer
+- **[vimtex](config/vimtex.nix):** Filetype plugin for LaTeX files
 - **[whichkey](config/whichkey.nix):** Keybindings popup
