@@ -4,6 +4,7 @@
     ./cmp.nix
     ./color.nix
     ./fidget.nix
+    ./gitsigns.nix
     ./harpoon.nix
     ./lsp.nix
     ./markdown-preview.nix

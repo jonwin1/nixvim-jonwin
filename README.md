@@ -36,6 +36,7 @@ environment = {
 - **[cmp](config/cmp.nix):** Completions
 - **[colorscheme](config/color.nix):** Gruvbox
 - **[fidget](config/fidget.nix):** LSP progress notifications
+- **[gitsigns](config/gitsigns.nix):** Git integration for buffers
 - **[harpoon](config/harpoon.nix):** Quickly switch between buffers
 - **[lsp](config/lsp.nix):** LSP config
 - **[markdown-preview](config/markdown-preview.nix):** Preview Markdown in your browser
