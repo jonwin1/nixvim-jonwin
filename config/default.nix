@@ -3,6 +3,7 @@
   imports = [
     ./cmp.nix
     ./color.nix
+    ./fidget.nix
     ./harpoon.nix
     ./lsp.nix
     ./opts.nix
