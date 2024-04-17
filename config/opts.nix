@@ -33,7 +33,7 @@
     #undodir = os.getenv("HOME") .. "/.vim/undodir";
     undofile = true;
 
-    updatetime = 100;
-    timeoutlen = 250;
+    updatetime = 250;
+    timeoutlen = 300;
   };
 }
