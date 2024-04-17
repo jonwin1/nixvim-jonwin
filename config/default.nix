@@ -13,6 +13,7 @@
     ./telescope.nix
     ./todo-comments.nix
     ./treesitter.nix
+    ./trouble.nix
     ./undotree.nix
     ./vimtex.nix
     ./whichkey.nix

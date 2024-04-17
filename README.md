@@ -45,6 +45,7 @@ environment = {
 - **[treesitter](config/treesitter.nix):** Incremental parsing system for programming tools
     - treesitter: Parser generator tool to build a syntax tree of the current buffer
     - treesitter-context: Show code context
+- **[trouble](config/trouble.nix):** List to help you solve all the trouble your code is causing
 - **[undotree](config/undotree.nix):** Undo history visualizer
 - **[vimtex](config/vimtex.nix):** Filetype plugin for LaTeX files
 - **[whichkey](config/whichkey.nix):** Keybindings popup
