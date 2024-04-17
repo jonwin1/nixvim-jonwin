@@ -55,9 +55,9 @@
     }
     {
       mode = "n";
-      key = "<leader>n";
+      key = "<leader>p";
       action = "<CMD>Ex<CR>";
-      options.desc = "[n]etrw";
+      options.desc = "Netrw Directory Listing";
     }
     {
       mode = "v";

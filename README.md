@@ -39,6 +39,9 @@ environment = {
 - **[harpoon](config/harpoon.nix):** Quickly switch between buffers
 - **[lsp](config/lsp.nix):** LSP config
 - **[telescope](config/telescope.nix):** Fuzzy finder
+- **[treesitter](config/treesitter.nix):** Incremental parsing system for programming tools
+    - treesitter: Parser generator tool to build a syntax tree of the current buffer
+    - treesitter-context: Show code context
 - **[undotree](config/undotree.nix):** Undo history visualizer
 - **[vimtex](config/vimtex.nix):** Filetype plugin for LaTeX files
 - **[whichkey](config/whichkey.nix):** Keybindings popup

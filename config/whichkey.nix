@@ -5,13 +5,12 @@
       "<leader>c" = "[c]ode...";
       "<leader>g" = "[g]it...";
       "<leader>s" = "[s]earch...";
-      "<leader>h" = "[h]arpoon...";
-      "<leader>ha" = "[h]arpoon [a]dd file";
-      "<leader>hh" = "[h]arpoon toggle menu";
-      "<leader>hj" = "[h]arpoon select file 1";
-      "<leader>hk" = "[h]arpoon select file 2";
-      "<leader>hl" = "[h]arpoon select file 3";
-      "<leader>hö" = "[h]arpoon select file 4";
+      "<leader>a" = "Harpoon [a]dd file";
+      "<leader>h" = "[h]arpoon toggle menu";
+      "<leader>j" = "Harpoon select file 1";
+      "<leader>k" = "Harpoon select file 2";
+      "<leader>n" = "Harpoon select file 3";
+      "<leader>m" = "Harpoon select file 4";
     };
   };
 }

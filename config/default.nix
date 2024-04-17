@@ -9,6 +9,7 @@
     ./opts.nix
     ./remap.nix
     ./telescope.nix
+    ./treesitter.nix
     ./undotree.nix
     ./vimtex.nix
     ./whichkey.nix
