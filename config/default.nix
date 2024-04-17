@@ -4,6 +4,7 @@
     ./cmp.nix
     ./color.nix
     ./harpoon.nix
+    ./lsp.nix
     ./opts.nix
     ./remap.nix
   ];
