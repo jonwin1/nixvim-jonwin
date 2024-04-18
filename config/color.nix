@@ -1,8 +1,8 @@
 {
-  colorschemes.gruvbox = {
+  colorschemes.nord = {
     enable = true;
     settings = {
-      transparent_mode = true;
+      disable_background = true;
     };
   };
 }

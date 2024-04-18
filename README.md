@@ -1,7 +1,6 @@
 # NixVim-Jonwin
 
 My NeoVim config for NixOS using NixVim.
-<img src="img/1.png" alt="nvim">
 
 ## Testing on nix system
 To test the configuration on an system with nix run the following command
@@ -35,7 +34,7 @@ environment = {
 ## Current plugins
 
 - **[cmp](config/cmp.nix):** Completions
-- **[colorscheme](config/color.nix):** Gruvbox
+- **[colorscheme](config/color.nix):** Nord
 - **[fidget](config/fidget.nix):** LSP progress notifications
 - **[gitsigns](config/gitsigns.nix):** Git integration for buffers
 - **[harpoon](config/harpoon.nix):** Quickly switch between buffers
