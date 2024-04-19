@@ -9,5 +9,6 @@
     };
 
     treesitter-context.enable = true;
+    rainbow-delimiters.enable = true;
   };
 }
