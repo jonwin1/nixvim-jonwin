@@ -121,9 +121,9 @@
     }
     {
       mode = "n";
-      key = "<leader>cp";
+      key = "<leader>cs";
       action = ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>";
-      options.desc = "re[p]lace";
+      options.desc = "Substitute word";
     }
     {
       mode = "v";

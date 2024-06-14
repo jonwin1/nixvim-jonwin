@@ -8,8 +8,12 @@
       navFile = {
         "1" = "<leader>j";
         "2" = "<leader>k";
-        "3" = "<leader>n";
-        "4" = "<leader>m";
+        "3" = "<leader>l";
+        "4" = "<leader>ö";
+        "5" = "<leader>n";
+        "6" = "<leader>m";
+        "7" = "<leader>,";
+        "8" = "<leader>.";
       };
     };
   };
