@@ -7,6 +7,7 @@
         clangd.enable = true;
         cmake.enable = true;
         lua-ls.enable = true;
+        gopls.enable = true;
         nixd.enable = true;
         texlab.enable = true;
         typos-lsp.enable = true;
