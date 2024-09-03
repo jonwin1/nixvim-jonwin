@@ -46,6 +46,10 @@
             action = "rename";
             desc = "Rename";
           };
+          "<leader>ca" = {
+            action = "code_action";
+            desc = "Code Action";
+          };
         };
       };
     };
