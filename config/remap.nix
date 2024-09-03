@@ -137,5 +137,11 @@
       action = ">gv";
       options.desc = "Indent while remaining in visual mode.";
     }
+    {
+      mode = "n";
+      key = "<leader>ch";
+      action = "<CMD>ClangdSwitchSourceHeader<CR>";
+      options.desc = "Switch Source/Header (C/C++)";
+    }
   ];
 }
