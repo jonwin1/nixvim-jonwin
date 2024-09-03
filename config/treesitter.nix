@@ -2,10 +2,12 @@
   plugins = {
     treesitter = {
       enable = true;
-      indent = true;
       nixvimInjections = true;
       nixGrammars = true;
-      ignoreInstall = ["latex"];
+      settings = {
+        indent.enable = true;
+        ignore_install = ["latex"];
+      };
     };
 
     treesitter-context.enable = true;
