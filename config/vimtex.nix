@@ -13,4 +13,7 @@
 			};
 		};
 	};
+	extraPackages = with pkgs; [
+		python312Packages.pygments
+	];
 }
