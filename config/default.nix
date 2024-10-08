@@ -8,6 +8,7 @@
     ./harpoon.nix
     ./lsp.nix
     ./markdown-preview.nix
+    ./mini.nix
     ./opts.nix
     ./remap.nix
     ./telescope.nix
