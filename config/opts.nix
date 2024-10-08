@@ -9,6 +9,7 @@
     termguicolors = true;
 
     wrap = false;
+		textwidth = 80;
     colorcolumn = "80";
     signcolumn = "yes";
     cursorline = true;
@@ -32,8 +33,6 @@
     timeoutlen = 300;
   };
   config.extraConfigLua = ''
-    vim.cmd([[autocmd FileType tex set textwidth=80]])
-
     vim.api.nvim_create_autocmd('TextYankPost', {
       desc = 'Highlight when yanking (copying) text',
       group = vim.api.nvim_create_augroup('kickstart-highlight-yank', { clear = true }),
