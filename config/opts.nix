@@ -8,8 +8,14 @@
     inccommand = "split";
     termguicolors = true;
 
-    wrap = false;
-		textwidth = 80;
+    tabstop = 4;
+    softtabstop = 4;
+    shiftwidth = 4;
+    expandtab = true;
+    autoindent = true;
+
+    wrap = true;
+    linebreak = true;
     colorcolumn = "80";
     signcolumn = "yes";
     cursorline = true;
@@ -34,6 +40,8 @@
   };
   config.extraConfigLua = ''
     vim.opt.formatoptions:remove "o"
+
+    vim.cmd([[autocmd FileType tex set textwidth=80]])
 
     vim.api.nvim_create_autocmd('TextYankPost', {
       desc = 'Highlight when yanking (copying) text',
