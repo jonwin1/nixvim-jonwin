@@ -31,12 +31,28 @@
                 desc  = "Harpoon select file 2";
             }
             {
-                __unkeyed = "<leader>n";
+                __unkeyed = "<leader>l";
                 desc  = "Harpoon select file 3";
             }
             {
-                __unkeyed = "<leader>m";
+                __unkeyed = "<leader>ö";
                 desc  = "Harpoon select file 4";
+            }
+            {
+                __unkeyed = "<leader>n";
+                desc  = "Harpoon select file 5";
+            }
+            {
+                __unkeyed = "<leader>m";
+                desc  = "Harpoon select file 6";
+            }
+            {
+                __unkeyed = "<leader>,";
+                desc  = "Harpoon select file 7";
+            }
+            {
+                __unkeyed = "<leader>.";
+                desc  = "Harpoon select file 8";
             }
         ];
     };

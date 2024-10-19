@@ -6,30 +6,6 @@
 
   keymaps = [
     {
-      mode = ["n" "i"];
-      key = "<left>";
-      action = "<cmd>echo \"Use h to move!!\"<CR>";
-      options.desc = "which_key_ignore";
-    }
-    {
-      mode = ["n" "i"];
-      key = "<right>";
-      action = "<cmd>echo \"Use l to move!!\"<CR>";
-      options.desc = "which_key_ignore";
-    }
-    {
-      mode = ["n" "i"];
-      key = "<up>";
-      action = "<cmd>echo \"Use k to move!!\"<CR>";
-      options.desc = "which_key_ignore";
-    }
-    {
-      mode = ["n" "i"];
-      key = "<down>";
-      action = "<cmd>echo \"Use j to move!!\"<CR>";
-      options.desc = "which_key_ignore";
-    }
-    {
       mode = "n";
       key = "[d";
       action = "<CMD>lua vim.diagnostic.goto_prev()<CR>";
