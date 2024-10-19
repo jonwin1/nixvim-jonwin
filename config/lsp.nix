@@ -10,11 +10,11 @@
           package = pkgs.llvmPackages_19.clang-tools;
         };
         cmake.enable = true;
-        lua-ls.enable = true;
+        lua_ls.enable = true;
         gopls.enable = true;
         nixd.enable = true;
         texlab.enable = true;
-        typos-lsp.enable = true;
+        typos_lsp.enable = true;
       };
       keymaps = {
         lspBuf = {
