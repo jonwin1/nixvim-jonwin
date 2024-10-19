@@ -1,8 +1,8 @@
 {
-  colorschemes.nord = {
-    enable = true;
-    settings = {
-      disable_background = true;
+    colorschemes.nord = {
+        enable = true;
+        settings = {
+            disable_background = true;
+        };
     };
-  };
 }
