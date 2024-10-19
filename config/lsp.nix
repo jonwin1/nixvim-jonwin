@@ -1,10 +1,14 @@
+{ pkgs, ... }:
 {
   plugins = {
     lsp = {
       enable = true;
       servers = {
         bashls.enable = true;
-        clangd.enable = true;
+        clangd = {
+          enable = true;
+          package = pkgs.llvmPackages_19.clang-tools;
+        };
         cmake.enable = true;
         lua-ls.enable = true;
         gopls.enable = true;
