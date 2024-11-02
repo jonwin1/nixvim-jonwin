@@ -42,6 +42,7 @@
     vim.opt.formatoptions:remove "o"
 
     vim.cmd([[autocmd FileType tex set textwidth=80]])
+    vim.cmd([[autocmd FileType md set textwidth=80]])
 
     vim.api.nvim_create_autocmd('TextYankPost', {
         desc = 'Highlight when yanking (copying) text',
