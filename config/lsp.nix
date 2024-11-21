@@ -15,6 +15,11 @@
                 nixd.enable = true;
                 texlab.enable = true;
                 typos_lsp.enable = true;
+                rust_analyzer = {
+                    enable = true;
+                    installCargo = false;
+                    installRustc = false;
+                };
             };
             keymaps = {
                 lspBuf = {
